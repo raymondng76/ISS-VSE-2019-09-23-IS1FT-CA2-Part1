@@ -3341,7 +3341,7 @@
 				<biases offset="111685184" size="510"/>
 			</blobs>
 		</layer>
-		<layer id="155" name="detector/yolo-v3/Conv_14/BiasAdd/YoloRegion" precision="FP16" type="RegionYolo">
+		<layer id="155" name="detector/yolo-v3/Conv_14/BiasAdd/YoloRegion1196" precision="FP16" type="RegionYolo">
 			<data anchors="10,13,16,30,33,23,30,61,62,45,59,119,116,90,156,198,373,326" axis="1" classes="80" coords="4" do_softmax="0" end_axis="3" mask="3,4,5" num="9"/>
 			<input>
 				<port id="0">
@@ -3721,7 +3721,7 @@
 				<biases offset="113883198" size="510"/>
 			</blobs>
 		</layer>
-		<layer id="173" name="detector/yolo-v3/Conv_22/BiasAdd/YoloRegion" precision="FP16" type="RegionYolo">
+		<layer id="173" name="detector/yolo-v3/Conv_22/BiasAdd/YoloRegion1198" precision="FP16" type="RegionYolo">
 			<data anchors="10,13,16,30,33,23,30,61,62,45,59,119,116,90,156,198,373,326" axis="1" classes="80" coords="4" do_softmax="0" end_axis="3" mask="0,1,2" num="9"/>
 			<input>
 				<port id="0">
@@ -3805,7 +3805,7 @@
 				<biases offset="123845180" size="510"/>
 			</blobs>
 		</layer>
-		<layer id="177" name="detector/yolo-v3/Conv_6/BiasAdd/YoloRegion" precision="FP16" type="RegionYolo">
+		<layer id="177" name="detector/yolo-v3/Conv_6/BiasAdd/YoloRegion1194" precision="FP16" type="RegionYolo">
 			<data anchors="10,13,16,30,33,23,30,61,62,45,59,119,116,90,156,198,373,326" axis="1" classes="80" coords="4" do_softmax="0" end_axis="3" mask="6,7,8" num="9"/>
 			<input>
 				<port id="0">
